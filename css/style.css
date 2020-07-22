@@ -1,3 +1,5 @@
+/* Generales */
+
 html {
 	box-sizing: border-box;
 	font-size: 62.5%;
@@ -29,6 +31,11 @@ p {
 	}
 }
 
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.3rem;
+}
 button {
 	width: 10rem;
 	height: 3rem;
@@ -39,58 +46,19 @@ button {
 	border: 2.5px solid white;
 }
 
+li {
+	list-style-type: none;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
 @media (min-width: 768px) {
 	button {
 		width: 15rem;
 		height: 4rem;
 		font-size: 1.3rem;
 	}
-}
-
-main {
-	display: block;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-}
-@media (min-width: 768px) {
-	main {
-		display: flex;
-	}
-}
-.foto-shop {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: auto;
-	padding: 3rem 0;
-}
-
-.foto-shop > h3 {
-	text-transform: uppercase;
-	font-weight: 400;
-	padding: 1rem 0 1rem 0;
-}
-
-.foto-shop > p {
-	padding: 1rem 0 1rem 0;
-	border-width: 2px;
-}
-
-@media (min-width: 768px) {
-	.foto-shop {
-		width: 50%;
-	}
-}
-
-.paraguas {
-	background-image: url('../img/Layer\ 248.jpg');
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	height: 50vh;
 }
 
 /* Carrousel */
@@ -210,4 +178,169 @@ h1 {
 }
 .link > img {
 	padding: 0.5rem;
+}
+
+.logIn {
+	display: flex;
+	align-items: center;
+	margin-right: 50px;
+}
+
+.logIn > p {
+	color: white;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1rem;
+	margin-right: 10px;
+}
+
+/* main section */
+
+section {
+	display: block;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+@media (min-width: 768px) {
+	section {
+		display: flex;
+	}
+}
+.foto-shop {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+}
+
+.foto-shop > h3 {
+	text-transform: uppercase;
+	font-weight: 400;
+	padding: 1rem 0 1rem 0;
+}
+
+.foto-shop > p {
+	padding: 1rem 0 1rem 0;
+	border-width: 2px;
+}
+
+@media (min-width: 768px) {
+	.foto-shop {
+		width: 50%;
+	}
+}
+
+.paraguas {
+	background: url('../img/Layer\ 248.jpg') no-repeat 0, 0 #727272;
+	background-blend-mode: multiply;
+	background-position: center center;
+	background-size: cover;
+	height: 50vh;
+}
+
+.puff {
+	background: url('../img/pufiPuf.png') no-repeat 0, 0 #727272;
+	background-blend-mode: multiply;
+	background-position: center center;
+	background-size: cover;
+	height: 50vh;
+}
+
+.cart {
+	background: url('../img/cart.png') no-repeat 0, 0 #727272;
+	background-blend-mode: multiply;
+	background-position: center center;
+	background-size: cover;
+	height: 50vh;
+}
+
+/* NewsLetter Form */
+.news {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px auto;
+}
+
+.news > p {
+	font-weight: 400;
+	color: gray;
+	text-transform: uppercase;
+}
+.news > h3 {
+	font-size: 4rem;
+	text-transform: uppercase;
+}
+.validate {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 4em;
+}
+#form {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	width: 50%;
+	height: 25px;
+	padding: 2rem;
+	border: 1px solid black;
+}
+.caja-email {
+	border-style: none;
+	font-size: 1.8rem;
+	border: none;
+	color: #3e3e3e;
+	width: 280px;
+}
+
+#novalid {
+	color: red;
+	font-weight: 400;
+	padding: 1em;
+	margin: 1em 0 0 0;
+	font-size: 0.5em;
+	display: none;
+}
+#valid {
+	color: gray;
+	font-weight: 400;
+	padding: 1em;
+	margin: 1em 0 0 0;
+	font-size: 0.5em;
+	display: none;
+}
+/* Footer */
+
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	text-transform: uppercase;
+	width: 100%;
+	height: 150px;
+	margin: 25px 0 0 0;
+	padding: 15px;
+	font-weight: 400;
+	font-size: 1.2rem;
+	-webkit-box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.16);
+	box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.16);
+}
+
+.afip {
+	display: flex;
+}
+.afip > img {
+	margin: 5px;
+}
+
+.afip > p {
+	font-size: 0.8rem;
+	font-style: italic;
+	padding: 5px;
 }

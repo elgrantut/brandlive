@@ -14,6 +14,14 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="css/nomalize.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css"
+		/>
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
@@ -23,7 +31,9 @@
 		<div>
 			<div class="nav">
 				<div class="barra">
-					<div class="logo"><img src="./img/pufi_logo.svg" alt="logo" /></div>
+					<div class="logo">
+						<img src="./img/pufi_logo.svg" alt="logo" />
+					</div>
 					<div class="seccion">
 						<div class="link">
 							<img src="./img/puff.svg" alt="Puffi puff" />
@@ -41,6 +51,10 @@
 							<img src="./img/nap.svg" alt="Puffi puff" />
 							<p>PUFI Nap</p>
 						</div>
+					</div>
+					<div class="logIn">
+						<p>Mi cuenta</p>
+						<p>Mi Compra</p>
 					</div>
 				</div>
 			</div>
@@ -95,7 +109,7 @@
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
-			<main>
+			<section>
 				<div class="foto-shop paraguas">
 					<button>
 						shop
@@ -109,11 +123,103 @@
 						Descripción del producto. <br />
 						Este es un texto simulado
 					</p>
-					<a href="#">> ver mas</a>
+					<a href="#">> ver más</a>
 				</div>
-			</main>
+			</section>
+			<section>
+				<div class="foto-shop">
+					<img src="./img/Layer 230.png" alt="paraguas" />
+					<h3>Pufi Puff</h3>
+					<hr />
+					<p>
+						Descripción del producto. <br />
+						Este es un texto simulado
+					</p>
+					<a href="#">> ver más</a>
+				</div>
+				<div class="foto-shop puff"></div>
+			</section>
+			<section>
+				<div class="foto-shop cart"></div>
+				<div class="foto-shop">
+					<img src="./img/Layer 229.png" alt="paraguas" />
+					<h3>Pufi Cart</h3>
+					<hr />
+					<p>
+						Descripción del producto. <br />
+						Este es un texto simulado
+					</p>
+					<a href="#">> ver más</a>
+				</div>
+			</section>
+		</div>
+		<div class="news">
+			<p>Instagram</p>
+			<h3>#Espufi</h3>
+			<img src="./img/damero.jpg" alt="damero" />
+		</div>
+		<div class="news">
+			<p>Newsletter</p>
+			<h3>Suscribite</h3>
+			<p>Y enterate de todas las novedades</p>
+		</div>
+		<div class="validate">
+			<form id="form" action="" method="get" name="validate">
+				<input
+					type="text"
+					class="caja-email"
+					placeholder="Ingresá tu email"
+					name="courriel"
+				/><i class="fas fa-arrow-right fa-2x"></i>
+			</form>
+			<div id="novalid">
+				<p>Lo siento, no es una direccion de correo válida.</p>
+			</div>
+			<div id="valid">
+				<p>Gracias, en breve le estaremos enviando todas las novedades.</p>
+			</div>
 		</div>
 
+		<footer>
+			<div>
+				<img src="./img/pufi_logo_black.svg" width="80px" alt="logo" />
+			</div>
+			<div>
+				<ul>
+					<li>Puffi Rain</li>
+					<li>Puffi Puff</li>
+					<li>Puffi Cart</li>
+					<li>Puffi Nap</li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li>Contacto</li>
+					<li>Ayuda</li>
+					<li>Como Comprar</li>
+					<li>Términos & Condiciones</li>
+				</ul>
+			</div>
+			<div>
+				<p>Compra 100% Segura</p>
+				<div class="afip">
+					<img src="./img/datafiscal.png" width="30px" alt="Afip" />
+					<img src="./img/Escudo.png" width="30px" alt="Escudo" />
+					<p>
+						Comprá con <br />
+						la garantía <br />
+						Pufi
+					</p>
+				</div>
+			</div>
+			<div>
+				<p>Seguinos en</p>
+				<i class="fab fa-facebook-f fa-lg"></i>
+				<i class="fab fa-twitter fa-lg"></i>
+				<i class="fab fa-instagram fa-lg"></i>
+			</div>
+		</footer>
+		<script src="./js/validation.js"></script>
 		<script
 			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
