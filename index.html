@@ -1,240 +1,262 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="css/nomalize.css" />
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css"
-		/>
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+<html class="no-js" lang="esp">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mi Boilerplate</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<title>Pufi</title>
-	</head>
-	<body>
-		<div>
-			<div class="nav">
-				<div class="barra">
-					<div class="logo">
-						<img src="./img/pufi_logo.svg" alt="logo" />
-					</div>
-					<div class="seccion">
-						<div class="link">
-							<img src="./img/puff.svg" alt="Puffi puff" />
-							<p>PUFI Puff</p>
-						</div>
-						<div class="link">
-							<img src="./img/umbrella.svg" alt="Puffi puff" />
-							<p>PUFI Rain</p>
-						</div>
-						<div class="link">
-							<img src="./img/cart.svg" alt="Puffi puff" />
-							<p>PUFI Cart</p>
-						</div>
-						<div class="link">
-							<img src="./img/nap.svg" alt="Puffi puff" />
-							<p>PUFI Nap</p>
-						</div>
-					</div>
-					<div class="logIn">
-						<p>Mi cuenta</p>
-						<p>Mi Compra</p>
-					</div>
-				</div>
-			</div>
-			<div class="tit">
-				<h1>
-					Estár cómodo, <br />
-					nunca fue tan fácil.
-				</h1>
-				<button>shop</button>
-			</div>
-			<div
-				id="carouselExampleIndicators"
-				class="carousel slide"
-				data-ride="carousel"
-			>
-				<ol class="carousel-indicators">
-					<li
-						data-target="#carouselExampleIndicators"
-						data-slide-to="0"
-						class="active"
-					></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="./img/relax.jpg" class="d-block w-100" alt="pileta" />
-					</div>
-					<div class="carousel-item">
-						<img src="./img/relax.jpg" class="d-block w-100" alt="pileta" />
-					</div>
-					<div class="carousel-item">
-						<img src="./img/relax.jpg" class="d-block w-100" alt="pileta" />
-					</div>
-				</div>
-				<a
-					class="carousel-control-prev"
-					href="#carouselExampleIndicators"
-					role="button"
-					data-slide="prev"
-				>
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a
-					class="carousel-control-next"
-					href="#carouselExampleIndicators"
-					role="button"
-					data-slide="next"
-				>
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-			<section>
-				<div class="foto-shop paraguas">
-					<button>
-						shop
-					</button>
-				</div>
-				<div class="foto-shop">
-					<img src="./img/Layer 227.png" alt="paraguas" />
-					<h3>Pufi rain</h3>
-					<hr />
-					<p>
-						Descripción del producto. <br />
-						Este es un texto simulado
-					</p>
-					<a href="#">> ver más</a>
-				</div>
-			</section>
-			<section>
-				<div class="foto-shop">
-					<img src="./img/Layer 230.png" alt="paraguas" />
-					<h3>Pufi Puff</h3>
-					<hr />
-					<p>
-						Descripción del producto. <br />
-						Este es un texto simulado
-					</p>
-					<a href="#">> ver más</a>
-				</div>
-				<div class="foto-shop puff"></div>
-			</section>
-			<section>
-				<div class="foto-shop cart"></div>
-				<div class="foto-shop">
-					<img src="./img/Layer 229.png" alt="paraguas" />
-					<h3>Pufi Cart</h3>
-					<hr />
-					<p>
-						Descripción del producto. <br />
-						Este es un texto simulado
-					</p>
-					<a href="#">> ver más</a>
-				</div>
-			</section>
-		</div>
-		<div class="news">
-			<p>Instagram</p>
-			<h3>#Espufi</h3>
-			<img src="./img/damero.jpg" alt="damero" />
-		</div>
-		<div class="news">
-			<p>Newsletter</p>
-			<h3>Suscribite</h3>
-			<p>Y enterate de todas las novedades</p>
-		</div>
-		<div class="validate">
-			<form id="form" action="" method="get" name="validate">
-				<input
-					type="text"
-					class="caja-email"
-					placeholder="Ingresá tu email"
-					name="courriel"
-				/><i class="fas fa-arrow-right fa-2x"></i>
-			</form>
-			<div id="novalid">
-				<p>Lo siento, no es una direccion de correo válida.</p>
-			</div>
-			<div id="valid">
-				<p>Gracias, en breve le estaremos enviando todas las novedades.</p>
-			</div>
-		</div>
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
 
-		<footer>
-			<div>
-				<img src="./img/pufi_logo_black.svg" width="80px" alt="logo" />
-			</div>
-			<div class="footer-link">
-				<ul>
-					<li>Puffi Rain</li>
-					<li>Puffi Puff</li>
-					<li>Puffi Cart</li>
-					<li>Puffi Nap</li>
-				</ul>
-			</div>
-			<div class="footer-faq">
-				<ul>
-					<li>Contacto</li>
-					<li>Ayuda</li>
-					<li>Como Comprar</li>
-					<li>Términos & Condiciones</li>
-				</ul>
-			</div>
-			<div class="footer-compra">
-				<p>Compra 100% Segura</p>
-				<div class="afip">
-					<img src="./img/datafiscal.png" width="30px" alt="Afip" />
-					<img src="./img/Escudo.png" width="30px" alt="Escudo" />
-					<p>
-						Comprá con <br />
-						la garantía <br />
-						Pufi
-					</p>
-				</div>
-			</div>
-			<div>
-				<p>Seguinos en</p>
-				<i class="fab fa-facebook-f fa-lg"></i>
-				<i class="fab fa-twitter fa-lg"></i>
-				<i class="fab fa-instagram fa-lg"></i>
-			</div>
-		</footer>
-		<script src="./js/validation.js"></script>
-		<script
-			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-			crossorigin="anonymous"
-		></script>
-	</body>
-	<!-- Matias Sanchez -->
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <!-- Add your site or application content here -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-gradient">
+      <a class="navbar-brand" href="#">
+        <img
+          src="./img/pufi_logo.svg"
+          width="90"
+          height="80"
+          class="d-inline-block align-top"
+          alt=""
+          loading="lazy"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              ><img
+                src="./img/puff.svg"
+                class="d-inline-block align-top"
+                alt=""
+              />
+              Pufi Puff <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pufi Rain</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pufi Cart</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./img/relax.jpg"
+            class="d-block w-100 h-100"
+            alt="carrousel"
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/relax.jpg" class="d-block w-100" alt="carrousel" />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/relax.jpg" class="d-block w-100" alt="carrousel" />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-sm-6 p-4 order-sm-1 paraguas d-flex justify-content-center align-items-center"
+        >
+          <div class="button text-center p-2">SHOP</div>
+        </div>
+        <div
+          class="col-sm-6 p-4 order-sm-2 d-flex justify-content-center align-items-center"
+        >
+          <div class="text-center">
+            <img src="./img/Layer 227.png" alt="paraguas" />
+            <h3>Pufi Rain</h3>
+            <hr />
+            <p>
+              Descripción del producto. <br />
+              Este es un texto simulado
+            </p>
+            <a href="#">> ver más</a>
+          </div>
+        </div>
+        <div
+          class="col-sm-6 order-sm-4 p-4 puff d-flex justify-content-center align-items-center"
+        >
+          <div class="button text-center p-2">SHOP</div>
+        </div>
+        <div
+          class="col-sm-6 order-sm-3 p-4 d-flex justify-content-center align-items-center"
+        >
+          <div class="text-center">
+            <img src="./img/Layer 230.png" alt="Puff" />
+            <h3>Pufi Puff</h3>
+            <hr />
+            <p>
+              Descripción del producto. <br />
+              Este es un texto simulado
+            </p>
+            <a href="#">> ver más</a>
+          </div>
+        </div>
+        <div
+          class="col-sm-6 p-4 order-sm-5 cart d-flex justify-content-center align-items-center"
+        >
+          <div class="button text-center p-2">SHOP</div>
+        </div>
+        <div
+          class="col-sm-6 order-sm-6 p-4 d-flex justify-content-center align-items-center"
+        >
+          <div class="text-center">
+            <img src="./img/Layer 229.png" alt="Cart" />
+            <h3>Pufi Cart</h3>
+            <hr />
+            <p>
+              Descripción del producto. <br />
+              Este es un texto simulado
+            </p>
+            <a href="#">> ver más</a>
+          </div>
+        </div>
+        <div
+          class="col-sm-6 p-4 order-sm-8 nap d-flex justify-content-center align-items-center"
+        >
+          <div class="button text-center p-2">SHOP</div>
+        </div>
+        <div
+          class="col-sm-6 order-sm-7 p-4 d-flex justify-content-center align-items-center"
+        >
+          <div class="text-center">
+            <img src="./img/Layer 228.png" alt="Nap" />
+            <h3>Pufi Nap</h3>
+            <hr />
+            <p>
+              Descripción del producto. <br />
+              Este es un texto simulado
+            </p>
+            <a href="#">> ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer mt-auto py-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-2">
+            <a href="#"
+              ><img src="./img/pufi_logo_black.svg" width="90" alt="logo"
+            /></a>
+          </div>
+          <div class="col-2">
+            <span class="text-muted"> Place sticky footer content here.</span>
+          </div>
+          <div class="col-2">3</div>
+          <div class="col-2">4</div>
+          <div class="col-2">5</div>
+          <div class="col-2">6</div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Boilerplate JS -->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
 </html>
